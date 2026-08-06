@@ -1,0 +1,12 @@
+gradio
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-openai
+langchain-qdrant
+langgraph
+qdrant-client
+tavily-python
+langfuse
+python-dotenv
