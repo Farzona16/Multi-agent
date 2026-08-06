@@ -1,0 +1,6 @@
+Multi-Agent AI Analyst loyihasi haqida ma'lumot:
+- Ushbu tizim LangGraph va Google Gemini 2.0 / 1.5 modellari asosida ishlaydi.
+- Tizim tarkibida 4 ta asosiy agent bor: Retriever Agent, Web Search Agent, Data Agent (SQL) va Code Agent (Python).
+- Ish jarayonini Supervisor (Router) agenti boshqaradi va Critic agenti javoblarning to'g'riligini tekshiradi.
+- Baza sifatida Qdrant vektor bazasidan va Observability uchun Langfuse platformasidan foydalaniladi.
+- Kompaniya yillik daromadi 2024-yilda 500,000 USD bo'lgan, 2025-yilda esa 750,000 USD ga yetgan.

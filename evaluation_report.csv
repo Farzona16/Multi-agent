@@ -1,0 +1,189 @@
+Question,Answer,Faithfulness,Answer Relevancy,Context Precision
+"750000 daromaddan 350000 xarajatni ayirib, foyda foizini toping",Hisob-kitob natijasi: 53.333333333333336,1.0,1.0,0.9
+Kompaniyaning umumiy daromadi qancha?,"SQL Result for 'SELECT SUM(revenue) FROM sales': [(1550000.0,)]",1.0,1.0,1.0
+Multi-Agent AI Analyst loyihasida qanday agentlar bor?,"Hujjatlardan topilgan ma'lumot:
+Multi-Agent AI Analyst loyihasi haqida ma'lumot:
+- Ushbu tizim LangGraph va Google Gemini 2.0 / 1.5 modellari asosida ishlaydi.
+- Tizim tarkibida 4 ta asosiy agent bor: Retriever Agent, Web Search Agent, Data Agent (SQL) va Code Agent (Python).
+- Ish jarayonini Supervisor (Router) agenti boshqaradi va Critic agenti javoblarning to'g'riligini tekshiradi.
+- Baza sifatida Qdrant vektor bazasidan va Observability uchun Langfuse platformasidan foydalaniladi.",1.0,1.0,1.0
+Tizimda nechta faol foydalanuvchi bor?,"SQL Result for 'SELECT count(*) FROM sales': [(3,)]",0.2,0.4,0.3
+Python orqali 15 ning kvadratini hisoblang,Hisob-kitob natijasi: 225,1.0,1.0,1.0
+"Salom, tizim qanday ishlaydi?","Hujjatlardan topilgan ma'lumot:
+- Ish jarayonini Supervisor (Router) agenti boshqaradi va Critic agenti javoblarning to'g'riligini tekshiradi.
+- Baza sifatida Qdrant vektor bazasidan va Observability uchun Langfuse platformasidan foydalaniladi.
+- Kompaniya yillik daromadi 2024-yilda 500,000 USD bo'lgan, 2025-yilda esa 750,000 USD ga yetgan.",1.0,0.8,0.7
+Bugungi eng so'nggi yangiliklarni topib ber,"Internetdan topilgan ma'lumot:
+bank logo
+
+USD :
+
+12 178,85 so'm
+
+EUR :
+
+14 053,18 so'm
+
+RUB :
+
+146,54 so'm
+
+Zomin 
+
+Ro‘yxat
+
+Plitka
+
+## So‘nggi yangiliklar
+
+## Sirdaryoda 10 yoshli farzandini urgan ayol 3 sutkaga qamaldi
+
+Bugun, 21:45## Pokistonda harbiylarga josuslik va hakerlik xavfi sabab WhatsApp’dan foydalanish taqiqlandi
+
+Bugun, 21:35## Maxachev yengilmas jangchiga raqib taklif qildi
+
+Bugun, 21:30## Rossiyada bayroq tushirilgan poyandoz ishi: o‘zbekistonlik ayolga nisbatan jinoyat ishi qo‘zg‘atilmadi [...] Bugun, 21:16## O‘zbekistonda iyunda so‘mdagi muddatli depozitlar bo‘yicha o‘rtacha foiz stavkasi 17,6 foizni tashkil etdi
+
+Bugun, 21:08## Afrosiyob ko‘chasidagi bog‘ atrofini o‘rab turgan panjaralar olib tashlanmoqda (video)
+
+Bugun, 20:39## Toshkentda me’yordan ortiq yuk ortgan haydovchidan yo‘lga yetkazgan zarari uchun 5,5 mln so‘m undirilishi belgilandi
+
+Bugun, 20:34## Tramp ma’muriyati Braziliyaning AQSHdagi elchisi vizasini bekor qildi
+
+Bugun, 20:16
+
+## Tavsiyalar
+
+1
+
+O‘zbekiston [...] 1
+
+O‘zbekiston
+
+## Toshkentda o‘pirilib tushgan yo‘l qurilishi bo‘yicha 6 kishiga sud hukmi o‘qildi
+
+Bugun, 10:102
+
+Madaniyat
+
+## “U boshqalar baxti uchun tug‘ilgan edi”. Bir umr otasini kutgan aktrisa va dublyaj ustasi Rimma Ahmedovaning sinovlarga to‘la hayoti
+
+Kecha, 13:553
+
+Dunyo
+
+## “Biroz sekinlashish kerak”. Mutaxassislar insoniyat sun’iy intellektni boshqara olmay qolishidan xavotir bildirdi
+
+Kecha, 12:404
+
+O‘zbekiston
+27 Iyul, 18:47
+
+ Siyosat
+ O‘zbekiston TIV
+ Baxtiyor Saidov
+ elchi
+ diplomatiya
+ diplomatlar
+ Qozog‘iston
+ Ozarbayjon
+ O‘zbekiston
+ Argentina
+ Portugaliya
+
+Batafsil 3
+
+O‘zbekistonda energetika vaziri o‘zgardi
+
+27 Iyul, 14:16
+
+ Siyosat
+ O‘zbekiston
+ Energetika vazirligi
+ Sherzod Xodjayev
+ yangi tayinlov
+
+Batafsil 3
+
+Tanzila Narbayeva “El-yurt hurmati” ordeni bilan mukofotlandi
+
+25 Iyul, 10:30 [...] 25 Iyul, 10:30
+
+ Siyosat
+ Tanzila Norboyeva
+ farmon
+ mukofot
+ O‘zbekiston Oliy Majlisi Senati
+ Shavkat Mirziyoyev
+ prezident
+
+Batafsil 3
+
+Mirziyoyev va Putin telefon orqali suhbatlashdi
+
+24 Iyul, 16:02
+
+ Siyosat
+ Vladimir Putin
+ Shavkat Mirziyoyev
+ telefon suhbati
+
+Batafsil 3
+
+Saidov va Lavrov bilan uchrashdi – muhokama qilingan masalalar
+
+24 Iyul, 15:47
+
+ Siyosat
+ Baxtiyor Saidov
+ Sergey Lavrov
+
+Batafsil 3
+
+Saidov Cho‘lponotada ShHT Tashqi ishlar vazirlari kengashi yig‘ilishida ishtirok etdi [...] 24 Iyul, 15:17
+
+ Siyosat
+ Baxtiyor Saidov
+ Shanxay hamkorlik tashkiloti (ShHT)"")
+ Qirg‘iziston
+
+Batafsil 3
+
+Hozir muloqotni qayta tiklash har qachongidan ham muhim: Mirziyoyev AQSh-Eron mojarosi haqida
+
+24 Iyul, 14:40
+
+ Siyosat
+ Shavkat Mirziyoyev
+ AQSh – Eron mojarosi
+ Eron
+ Mas’ud Pezeshkiyon
+ O‘zbekiston
+
+Batafsil 3
+
+yana 20 ta material
+
+O‘zbekiston
+
+Yangiliklar
+
+Siyosat
+
+Dunyoda
+
+Iqtisod
+
+Jamiyat
+
+Migratsiya
+
+Madaniyat",1.0,1.0,0.7
+SQL bazada nechta jadval bor?,"SQL Result for 'SELECT count(*) FROM sqlite_master WHERE type='table';': [(1,)]",1.0,0.8,0.9
+5000 ning 12 foizini hisobla,Hisob-kitob natijasi: 600.0,1.0,1.0,1.0
+Hujjatlar ichidan loyiha talablarini top,"Hujjatlardan topilgan ma'lumot:
+- Ish jarayonini Supervisor (Router) agenti boshqaradi va Critic agenti javoblarning to'g'riligini tekshiradi.
+- Baza sifatida Qdrant vektor bazasidan va Observability uchun Langfuse platformasidan foydalaniladi.
+Multi-Agent AI Analyst loyihasi haqida ma'lumot:
+- Ushbu tizim LangGraph va Google Gemini 2.0 / 1.5 modellari asosida ishlaydi.
+- Tizim tarkibida 4 ta asosiy agent bor: Retriever Agent, Web Search Agent, Data Agent (SQL) va Code Agent (Python).",1.0,0.8,0.7
