@@ -156,4 +156,4 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="indigo", neutral_hue="slate"), 
     )
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch()
