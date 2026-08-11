@@ -615,7 +615,7 @@ if __name__ == "__main__":
     # Render muhitida RENDER=true o'zgaruvchisi avtomatik bo'ladi yoki PORT beriladi
     is_render = os.environ.get("RENDER") or os.environ.get("PORT")
     
-    server_name = "0.0.0.0" if is_render else "127.0.0.1"
+    server_name = "0.0.0.0"
     port = int(os.environ.get("PORT", 7860))
     
     demo.launch(
