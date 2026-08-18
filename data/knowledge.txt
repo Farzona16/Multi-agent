@@ -4,3 +4,31 @@ Multi-Agent AI Analyst loyihasi haqida ma'lumot:
 - Ish jarayonini Supervisor (Router) agenti boshqaradi va Critic agenti javoblarning to'g'riligini tekshiradi.
 - Baza sifatida Qdrant vektor bazasidan va Observability uchun Langfuse platformasidan foydalaniladi.
 - Kompaniya yillik daromadi 2024-yilda 500,000 USD bo'lgan, 2025-yilda esa 750,000 USD ga yetgan.
+
+=== MULTI-AGENT ANALYST WA RAG TIZIMI HAQIDA BILIMLAR BAZASI ===
+
+1. Tizimning umumiy tavsifi:
+Multi-Agent Analyst - bu sun'iy intellekt agentlari hamkorligida ishlaydigan tahliliy platforma. U foydalanuvchi so'rovlarini avtomatik tahlil qiladi, kerakli ma'lumotlarni ichki bilimlar bazasidan (RAG) yoki internetdan (Tavily) qidiradi va yakuniy xulosani shakllantiradi.
+
+2. RAG (Retrieval-Augmented Generation) Texnologiyasi:
+RAG texnologiyasi Large Language Model (LLM) imkoniyatlarini tashqi bilimlar bazasi bilan boyitadi. 
+Jarayon 3 bosqichdan iborat:
+- Ingestion: Matnlarni chunk'larga bo'lish va embedding (vektor) ko'rinishiga o'tkazish.
+- Retrieval: Foydalanuvchi savoliga mos eng yaqin vektorlarni Qdrant bazasidan qidirib topish.
+- Generation: Topilgan ma'lumotlarni LLM (Gemini) ga context sifatida berib, aniq va asoslangan javob generation qilish.
+
+3. Ishlatiladigan asosiy kutubxonalar va vositalar:
+- Qdrant: Vektorli ma'lumotlar bazasi (Vector Database). Vektorli qidiruvni amalga oshiradi.
+- LangGraph: Ko me'yorli va murakkab ko'p agentli (multi-agent) sikllar va mantiqiy zanjirlarni boshqarish freymvorki.
+- LangChain: LLM, Prompt, Document Loader va Vektor bazalarni bir-biriga bog'lovchi karkas.
+- Tavily AI: Agentlar uchun maxsus moslashtirilgan real-vaqt rejimida ishlaydigan web-qidiruv tizimi.
+- Langfuse: Agentlarning fikrlash zanjiri (trace), xarajatlari va qadamlarini monitoring qilish platformasi.
+
+4. Agentlarning rollari va vazifalari:
+- Router Agent: Kiruvchi savolni tahlil qilib, uni qaysi agentga yo'naltirishni hal qiladi (Lokal baza yoki Web search).
+- Retriever Agent: Qdrant vektor bazasidan eng mos keluvchi matn bo'laklarini (chunks) olib keladi.
+- Search Agent: Agar lokal bazada javob bo'lmasa, Tavily API orqali internetdan yangi ma'lumotlarni qidiradi.
+- Writer/Responder Agent: Yig'ilgan barcha ma'lumotlarni umumlashtirib, foydalanuvchiga aniq, ravon va tushunarli javob yozadi.
+
+5. LiteLLM Proxy va Model sozlamalari:
+Tizimda OpenAI interfeysi orqali LiteLLM proksi serveriga ulanish yo'lga qo'yilgan. Bu orqali Google Gemini modellari (`gemini-embedding`, `gemini-1.5-flash`) samarali chaqiriladi va qayta ishlanadi.
